@@ -2,6 +2,11 @@ const fastify = require('fastify');
 const proxy = require('fastify-http-proxy');
 const app = fastify();
 
+app.register(require('fastify-cors'), { 
+  // put your options here
+  origin: '*',
+})
+
 app.register(proxy, {
   upstream: process.env.URL,
   // prefix: '/ics',
