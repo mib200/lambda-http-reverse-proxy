@@ -6,7 +6,7 @@
   "author": "Manish Kumar <mib200@gmail.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "serverless": "^1.64.0",
+    "serverless": "^3.25.1",
     "serverless-offline": "^5.12.1",
     "serverless-prune-plugin": "^1.4.2"
   },
